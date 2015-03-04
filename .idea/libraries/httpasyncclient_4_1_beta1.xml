@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="httpasyncclient-4.1-beta1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/httpasyncclient-4.1-beta1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
