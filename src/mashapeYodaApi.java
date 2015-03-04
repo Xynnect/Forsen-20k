@@ -16,6 +16,10 @@ import java.util.concurrent.Future;
 public class mashapeYodaApi {
     public static void main(String[] args) {
 // These code snippets use an open-source library. http://unirest.io/java
+
+printUnirest();
+    }
+    public static void printUnirest(){
         try {
             HttpResponse<String> response = Unirest.get("https://yoda.p.mashape.com/yoda?sentence=You+will+learn+how+to+speak+like+me+someday.++Oh+wait.")
                     .header("X-Mashape-Key", "wuy8RRVeaymsheipYP4cuiv3YKHTp1GtGIMjsnp2JsM73Qc0W6")
@@ -25,7 +29,6 @@ public class mashapeYodaApi {
         } catch (UnirestException e) {
             e.printStackTrace();
         }
-
     }
 
 }
